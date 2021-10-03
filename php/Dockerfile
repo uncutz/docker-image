@@ -18,6 +18,6 @@ RUN apt-get update && \
     | php -- --install-dir=/usr/bin --filename=composer
 
     #Set workdir
-    WORKDIR /app
+    WORKDIR /public
 
 

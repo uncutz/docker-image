@@ -43,6 +43,12 @@ docker-compose down
 Docker Container bauen 
 
 ```bash
+$ docker-compose build
+```
+
+oder
+
+```bash
 $ docker-compose up -d --build
 ```
 
